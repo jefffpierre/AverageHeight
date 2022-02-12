@@ -6,3 +6,10 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
+student_height = 0
+for i in student_heights:
+    student_heights[n] = student_height + 1
+
+
+
+print(n)
