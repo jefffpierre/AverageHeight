@@ -6,10 +6,15 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
-student_height = 0
-for i in student_heights:
-    student_heights[n] = student_height + 1
+total_height = 0
+for height in student_heights:
+  total_height += height
+tot = total_height
 
+studentnumber = 0 
+for student in student_heights:
+  studentnumber += 1
+numbs = studentnumber
 
-
-print(n)
+final = round(tot/numbs)
+print(final)
